@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://39.101.178.10:3306/jiayi?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: ty
+    password: ty
+    driver-class-name: com.mysql.jdbc.Driver

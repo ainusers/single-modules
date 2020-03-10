@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="team-work-web:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/team_work_web_jar</output-path>
+    <root id="archive" name="team-work-web.jar">
+      <element id="module-output" name="team-work-web" />
+      <element id="module-output" name="team-work-data" />
+    </root>
+  </artifact>
+</component>
