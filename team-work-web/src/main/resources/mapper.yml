@@ -1,0 +1,10 @@
+config:
+  sqls:
+    one:
+      version: single
+      module: data
+      sql: select * from table
+    two:
+      version: single2
+      module: data
+      sql: select * from table2
