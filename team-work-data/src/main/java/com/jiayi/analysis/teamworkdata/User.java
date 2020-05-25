@@ -4,30 +4,30 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-    private String name;
-    private String msg;
+    private String emailStatus;
+    private String projectCount;
 
-    public String getName() {
-        return name;
+    public String getEmailStatus() {
+        return emailStatus;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEmailStatus(String emailStatus) {
+        this.emailStatus = emailStatus;
     }
 
-    public String getMsg() {
-        return msg;
+    public String getProjectCount() {
+        return projectCount;
     }
 
-    public void setMsg(String msg) {
-        this.msg = msg;
+    public void setProjectCount(String projectCount) {
+        this.projectCount = projectCount;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name + '\'' +
-                ", msg='" + msg + '\'' +
+                "emailStatus='" + emailStatus + '\'' +
+                ", projectCount='" + projectCount + '\'' +
                 '}';
     }
 }

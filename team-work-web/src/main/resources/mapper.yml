@@ -3,7 +3,7 @@ config:
     one:
       version: single
       module: data
-      sql: select * from table
+      sql: select * from tb_category
     two:
       version: single2
       module: data
