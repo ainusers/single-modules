@@ -4,6 +4,11 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+    # 达梦数据库
+    # url: jdbc:dm://192.168.90.125:5236/regdb
+    # username: regdb
+    # password: hongyi2020
+    # driver-class-name: dm.jdbc.driver.DmDriver
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

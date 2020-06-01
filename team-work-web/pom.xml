@@ -18,6 +18,14 @@
     </properties>
 
     <dependencies>
+        <!-- 达梦数据库 -->
+        <dependency>
+            <groupId>dm.jdbc.driver.DmDriver</groupId>
+            <artifactId>jdbc</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/lib/Dm7JdbcDriver18.jar</systemPath>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
